@@ -1,0 +1,21 @@
+    .header {
+        background-color: #bfb;
+        margin: 50px;
+        padding: 50px;
+        border: 1px solid black;
+    }
+    .notes {
+        background-color: #bbf;
+        margin: 50px;
+        padding: 50px;        
+        border: 1px solid black;
+        
+    }
+    
+    .disabled {
+        color: #888;
+    }
+    
+    span {
+        margin-right: 30px;
+    }

@@ -1,0 +1,55 @@
+TO DO:
+
+* Rename the files. Currently they're named siguptest(number).html. This
+is really dumb because #1, they're currently not in that order, and #2, we might want to change the order again. 
+
+One better solution would be to name them: signuptest-(name of this step).html, so that signuptest2.html would be renamed signuptest-travelerinfo.html
+
+* Require that required conditions be filled on every page before the next button functions as a link, and make it visibly react when it is clicked when not functional as a link (Could pop up an alert box telling the user what the missing required information is.)
+
+* Including a mechanism to save the person's progress in the process, so that if they log off they will be taken back to the last page they worked on would be good.
+
+TRAVELER INFORMATION SECTION:
+
+* I want to create a seperation between standard personal information (Which theoretically can be filled in with an existing account service such as facebook or google accounts) and Servas specific information on the "Traveler Information" page. Right now you have Membership Type in the higher standard personal information section, when it should be in the lower section.
+
+* Speaking of the membership section, this is a process for setting up a traveler - There will also be a process for becoming a "Servas Member" which will be seperate. This means that there shouldn't be options for signing up as a Host here. plain "Traveler" should also be eliminated, as the membership type should be either "International traveler" or "Domestic traveler"
+
+* You should make some fields out of specific traveler information - A good start would be to look at an existing LOI, and look at all of the information that we ask for beyond basic personal information - stuff like languages spoken, countries traveled in, etc.
+
+LOGIN INFO SECTION:
+
+* It would be great if we actually could use facebook / google login to show the board/ other interested parties what we can do with them. If you could research into what information we could gather from facebook/google accounts, that would be great.
+
+* It would be good if you could make the "Existing Servas Account" live in a limited sense. What this could do is ask for a username/password, and on success, send people to the "Traveler Information" section, but with all of the basic information filled out (You can just use hardcoded test data, like "Jimmy Smith, 707-555-5555, 555 explosion ave")
+
+* The Create account text should be a link which makes email and password fields pop up.
+
+FIND AN INTERVIEWER SECTION:
+
+* Under the "Here are the interviewers in your area", you should put in a mock up of an interviewer locater: Maybe a google maps window with interviewers marked on the map and below that, a list of all interviewers within the area, with "I want to contact this interviewer" link attached to all of them. Again, hard-coded information should be fine.
+
+* It would be good to make an alternate page that displays what would happen if there are no interviewers found: Like a message that there are no interviewers in their area, and that they should call the office to set up a phone interview.
+
+INTERVIEWER APPROVAL:
+
+* Make it clearer that this is a part of the process that is done on the interviewers computer instead of the travelers computer. I have a few ideas, but they're not great so if you come up with something good try it out.
+
+* Add an actual list of people awaiting interviews.
+
+* Add an actual checklist of what you should do during an interview (You probably want to ask Amy about this.)
+
+* Add a checkbox next to the approval button.
+
+PAYMENT OPTIONS:
+
+* Add an actual link to a payment system link amazon payments, but mock up the page that the user goes to.
+
+* Give our phone number next to the call us option along with the hours in which we are open.
+
+FINISHED PAGE:
+
+* Change the finished options into links.
+
+
+
