@@ -19,14 +19,14 @@ $ ("#chkbx").click (function() {
 	$("#chkinfo").css("display","block");
 	
   });
-});  </script>
-<div class='header'>
-    <h1>BECOMING A TRAVELER</h1>
-    <span>Login Info</span></b>    
-    <span>Traveler Information</span></b>
-    <span>Find an interviewer</span>            
-    <b><span>Payment</span></b>
-</div>
+  
+    $('#contextBox').load('context%20box.html', function() {
+	    $('#paymentLabel').addClass('currentStep');
+	});
+  
+});  
+</script>
+<div id='contextBox'></div>
 
 Payment options:
 <br><a href='amazonPayments.html'>Amazon Payment System</a></br>
@@ -37,7 +37,7 @@ Payment options:
 <div id='dcinfo'><input type='text'></div>
 <br></b> Check <input id='chkbx' type='checkbox'>
 <div id='chkinfo'><input type='text'></div>
-<a href='signuptest6(becoming%20a%20traveler-finished).html'a/>
+<a href='finished.html'a/>
 <br><button class='disabled'>Next</button>
 </a>
 

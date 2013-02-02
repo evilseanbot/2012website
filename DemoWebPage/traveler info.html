@@ -9,15 +9,14 @@ $(document).ready(function() {
   $("#ServasHost").click (function() {
 		$("#ServasHostQuestions").css("display","block");
 	});
-});  </script>
-<div class='header'>
-    <h1>BECOMING A TRAVELER</h1>
-    <span>Login Info</span></b>    
-    <b><span>Traveler Information</span></b>
-    <span>Find an interviewer</span>        
-    <span>Interviewer approval</span>    
-    <span>Payment</span>
-</div>
+
+    $('#contextBox').load('context%20box.html', function() {
+	    $('#travelerInfoLabel').addClass('currentStep');
+	});
+});  
+</script>
+
+<div id='contextBox'></div>
 
 <br>We would like you to give us basic boring person information:</br>
 <br>
@@ -64,7 +63,7 @@ $(document).ready(function() {
 <br>6) other volunteer activities.
 <br><textarea style= 'height: 300px; width: 600px' > </textarea>
 <br>
-<a href='signuppage3(becoming%20a%20traveler-find%20an%20interviewer.html'>
+<a href='find%20an%20interviewer.html'>
 <br><button class='disabled'>Next</button>
 </a>
 

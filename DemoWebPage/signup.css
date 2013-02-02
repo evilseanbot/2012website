@@ -19,3 +19,7 @@
     span {
         margin-right: 30px;
     }
+	
+	.currentStep {
+	    font-weight: bold;
+	}

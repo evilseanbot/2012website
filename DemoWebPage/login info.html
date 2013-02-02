@@ -1,16 +1,14 @@
 <html>
 
 <link rel="stylesheet" type="text/css" href="signup.css" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 
-<div class='header'>
-    <h1>BECOMING A TRAVELER</h1>
-    <b><span>Login Info</span></b>    
-    <span>Traveler Information</span>
-    <span>Find an interviewer</span>
-    <span>Interviewer approval</span>    
-    <span>Payment</span>    
-</div>
-
+<div id='contextBox'></div>
+<script>
+    $('#contextBox').load('context%20box.html', function() {
+	    $('#loginInfoLabel').addClass('currentStep');
+	});
+</script>
 
 Already with US Servas? Check here: <input type='checkbox'>  
 <br>or 
@@ -27,8 +25,9 @@ Already with US Servas? Check here: <input type='checkbox'>
 <br>
 <br><b>Create an Account:</b>
 <br>
-<a href='signuptest2(becoming%20a%20traveler-traveler%20info).html'a/>
+<a href='traveler%20info.html'>
 <br><button class='disabled'>Next</button>
+</a>
 
 <div class='notes'>
     <h3>DESIGN NOTES</h3>    

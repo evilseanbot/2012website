@@ -1,15 +1,12 @@
 <link rel="stylesheet" type="text/css" href="signup.css" />
 
-<div class='header'>
-    <h1>BECOMING A TRAVELER</h1>
-    <span>Login Info</span>
-    <span><input='text'></span>
-    <span><input='text'></span>
-    <span>Traveler Information</span>
-    <b><span>Find an interviewer</span></b> 
-    <span>Interviewer approval</span>
-    <span>Payment</span>
-</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<div id='contextBox'></div>
+<script>
+    $('#contextBox').load('context%20box.html', function() {
+	    $('#findInterviewerLabel').addClass('currentStep');
+	});
+</script>
 
 Here are interviewers in your area, 
 
@@ -23,7 +20,7 @@ the become a traveller link at any time, and your progress up to this point will
 <br>After you contact an interviewer and they approve you, you are 
 eligible for Servas membership and will be transfered to the next step.
 <br><br>If you are unable to locate an interviewer in your area we can connect you with a telephone interviewer through our office.
-<a href='signuptest4(becoming%20a%20traveler-payment).html'/a>
+<a href='interviewerActions.html'/a>
 <br><button class='disabled'>Next</button>
 
 <div class='notes'>
