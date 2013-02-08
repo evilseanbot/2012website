@@ -1,26 +1,37 @@
 Servas International Host List Statistics 2013
 
 
-North America:<br><input type='checkbox'>
+North America:
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-Europe:<br><input type='checkbox'>
+Europe:
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-Near East: <br><input type='checkbox'>
+Near East: 
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-Africa: <br><input type='checkbox'>
+Africa: 
+<br><input type='checkbox'>
 <br><br/><input type='checkbox'>
-Caribbean: <br><input type='checkbox'>
+Caribbean: 
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-Central America: <br><input type='checkbox'> 
+Central America: 
+<br><input type='checkbox'> 
 <br><br/><input type='text'>
-South America: <br><input type='checkbox'>
+South America: 
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-South Asia: <br><input tyep='checkbox'>
+South Asia: 
+<br><input tyep='checkbox'>
 <br><br/><input type='text'>
-West Asia: <br><input type='checkbox'>
+West Asia: 
+<br><input type='checkbox'>
 <br><br/><input type='text'>
-Far East: <br><br/><input type='checkbox'>
+Far East: 
+<br><br/><input type='checkbox'>
 <br><br/><input type='text'>
-South Pacific: <br><br/><input type='checkbox'>
+South Pacific: 
+<br><br/><input type='checkbox'>
 <br><br/><input type='text'>
 
